@@ -1,0 +1,37 @@
+/* floated modal ==========start=====>>========= */
+.floated_modal {
+    position: fixed;
+    min-width: 500px;
+    min-height: 200px;
+    z-index: 10000;
+    background: #ffffff;
+    left: 4px;
+    top: 53px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 3px;
+}
+
+.floated_modal .floated_modal_action_icons {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+}
+
+.floated_modal .floated_modal_action_icons .floated_modal_pan_icon:hover {
+    cursor: move !important;
+}
+
+.floated_modal .floated_modal_resize_icon {
+    position: absolute;
+    bottom: -6px;
+    right: -3px;
+    transform: rotate(-45deg);
+    color: rgb(201, 193, 193);
+}
+
+.floated_modal .floated_modal_resize_icon:hover {
+    color: rgb(71, 70, 70);
+    cursor: nw-resize !important;
+}
+
+/* floated modal ==========end=====<<========= */
